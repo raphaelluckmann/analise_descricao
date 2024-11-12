@@ -1,0 +1,33 @@
+# Ignore o diretório de caches do Poetry
+.cache/
+
+# Ignorar ambientes virtuais criados pelo Poetry
+# Poetry geralmente cria o virtualenv fora do projeto, mas caso ele esteja dentro, ignore-o
+.venv/
+venv/
+.vscode/
+.idea
+idea
+
+
+# Ignorar arquivos de dependências e lock
+poetry.lock
+.poetry.lock
+
+# Ignorar compilados e arquivos temporários
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Ignore logs e arquivos temporários do sistema operacional
+*.log
+*.swp
+.DS_Store
+Thumbs.db
+
+# Ignore diretórios de testes temporários e arquivos de build
+
+build/
+*.egg-info/
